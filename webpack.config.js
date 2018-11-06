@@ -8,7 +8,7 @@ module.exports = {
   output:{
     path:path.join(__dirname,'/dist/'),
     filename:'[name].js',
-    library:'better-storage',
+    library:'expires-storage',
     libraryTarget:'umd'
   },
   module:{
