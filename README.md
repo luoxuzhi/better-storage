@@ -1,5 +1,5 @@
 
-> a project pack by localStorage
+> a project pack for localStorage
 
 ## Build Setup
 
