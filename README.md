@@ -5,9 +5,9 @@
 
 ``` bash
 # install dependencies
-npm install better-storage -S
+npm install expires-storage -S
 
-import storage from 'better-storage'
+import storage from 'expires-storage'
 
 # set localStorage item which will never expires
 
