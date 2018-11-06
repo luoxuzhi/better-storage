@@ -1,10 +1,10 @@
 /*
 * @Author: luoxuzhi848
 * @Date:   2018-11-06 14:17:25
-* @Last Modified by:   luoxuzhi848
-* @Last Modified time: 2018-11-06 15:32:14
+* @Last Modified by:   lxz
+* @Last Modified time: 2018-11-06 16:58:09
 */
-class Storage  {
+export class Storage  {
 
   constructor(props) {
     this.props = props || {}
@@ -57,7 +57,7 @@ class Storage  {
 
     if ( now >= expired ) {
       this.remove(key)
-      return
+      return null
     }
     const value = source[key] ? JSON.parse(source[key]) : source[key]
     return value
@@ -76,3 +76,4 @@ class Storage  {
 const storage = new Storage()
 
 export default storage
+// module.exports = storage

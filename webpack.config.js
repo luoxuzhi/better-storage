@@ -1,11 +1,30 @@
+const path = require('path')
+
 module.exports = {
+  mode: 'production',
   entry:{
-    storage:'./index.js'
+    index:'./src/index.js'
   },
   output:{
-    path:__dirname,
+    path:path.join(__dirname,'/dist/'),
     filename:'[name].js',
-    library:'storage',
+    library:'better-storage',
     libraryTarget:'umd'
+  },
+  module:{
+    rules:[
+      {                             
+        test: /(\.js)$/,   
+        use: { 
+          loader: "babel-loader",
+          options: {
+            presets: [
+              "env"
+            ]
+          }
+        },
+        exclude: /node_modules/
+      }
+    ]
   }
 }

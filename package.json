@@ -1,0 +1,28 @@
+{
+  "name": "better-storage",
+  "version": "1.0.0",
+  "description": "window localStorage pack,so it can be set expire time",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luoxuzhi/better-storage.git"
+  },
+  "keywords": [
+    "localStorage",
+    "expires"
+  ],
+  "author": "luoxuzhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luoxuzhi/better-storage/issues"
+  },
+  "homepage": "https://github.com/luoxuzhi/better-storage#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0"
+  }
+}
