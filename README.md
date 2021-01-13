@@ -9,7 +9,7 @@ npm install expires-storage -S
 
 import storage from 'expires-storage'
 
-# set localStorage item which will never expires
+# set localStorage item which will never expires, two param of storage item is key and value
 
 storage.set('num',1)
 
